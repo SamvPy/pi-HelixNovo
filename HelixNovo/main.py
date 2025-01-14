@@ -10,8 +10,8 @@ import pytorch_lightning as pl
 import torch
 import yaml
 
-from __init__ import __version__
-from denovo import model_runner
+from HelixNovo import __version__
+from .denovo import model_runner
 
 
 logger = logging.getLogger("pi-HelixNovo")

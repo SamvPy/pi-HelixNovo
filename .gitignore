@@ -1,5 +1,6 @@
 # Python files
-__pycache__/
+**/__pycache__/
+
 *.py[cod]
 *.pyo
 *.pyd
@@ -9,4 +10,5 @@ __pycache__/
 .env
 .venv
 *.ipynb_checkpoints
+*.pyc
 /build/

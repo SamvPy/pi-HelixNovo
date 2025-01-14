@@ -11,10 +11,10 @@ import numpy as np
 import pytorch_lightning as pl
 import sys 
 sys.path.append("..") 
-from depthcharge.data import AnnotatedSpectrumIndex, SpectrumIndex
+from ..depthcharge.data import AnnotatedSpectrumIndex, SpectrumIndex
 from pytorch_lightning.strategies import DDPStrategy
-from denovo.dataloaders import DeNovoDataModule
-from denovo.model import Spec2Pep
+from ..denovo.dataloaders import DeNovoDataModule
+from ..denovo.model import Spec2Pep
 
 
 logger = logging.getLogger("pi-HelixNovo")

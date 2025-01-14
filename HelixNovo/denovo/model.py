@@ -8,13 +8,13 @@ from typing import Any, Dict, List, Optional, Tuple, Union, Set
 import einops
 import sys 
 sys.path.append("..") 
-import depthcharge.masses
+from .. import depthcharge
 import numpy as np
 import pytorch_lightning as pl
 import torch
 from torch.utils.tensorboard import SummaryWriter
-from depthcharge.components import ModelMixin, PeptideDecoder, SpectrumEncoder
-from denovo import evaluate
+from ..depthcharge.components import ModelMixin, PeptideDecoder, SpectrumEncoder
+from ..denovo import evaluate
 
 
 logger = logging.getLogger("pi-HelixNovo")

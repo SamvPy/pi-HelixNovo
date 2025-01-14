@@ -2,7 +2,7 @@
 from typing import Optional, Tuple
 import sys 
 sys.path.append("..") 
-import depthcharge
+from .. import depthcharge
 import numpy as np
 import spectrum_utils.spectrum as sus
 import torch

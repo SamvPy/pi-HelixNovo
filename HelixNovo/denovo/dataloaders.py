@@ -8,9 +8,9 @@ import pytorch_lightning as pl
 import torch
 import sys 
 sys.path.append("..") 
-from depthcharge.data import AnnotatedSpectrumIndex
+from ..depthcharge.data import AnnotatedSpectrumIndex
 
-from data.datasets import AnnotatedSpectrumDataset, SpectrumDataset
+from ..data.datasets import AnnotatedSpectrumDataset, SpectrumDataset
 
 
 class DeNovoDataModule(pl.LightningDataModule):
