@@ -1,0 +1,12 @@
+# Python files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.egg
+.env
+.venv
+*.ipynb_checkpoints
+/build/
